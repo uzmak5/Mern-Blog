@@ -10,10 +10,10 @@
   },
   "name": "api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "",
